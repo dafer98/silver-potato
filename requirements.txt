@@ -1,3 +1,4 @@
 streamlit
 pyresparser
 pandas
+pyresparser
