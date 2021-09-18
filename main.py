@@ -1,5 +1,5 @@
+import nltk_download_utils
 import streamlit as st
-import nltk
 from pyresparser import ResumeParser
 import pandas as pd
 import pathlib
