@@ -4,7 +4,6 @@ from pyresparser import ResumeParser
 import pandas as pd
 import pathlib
 from datetime import date
-import nltk
 
 
 
@@ -14,8 +13,7 @@ def convert_df(df):
 
 
 def main():
-    nltk.download('words')
-    nltk.download('stopwords')
+
     data_ingested = []
 
     st.title('My first app')
